@@ -55,6 +55,7 @@ section#about {
   line-height: 2;
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
+  margin: 20px;
 }
  img.left {
     border-radius: 20%;
@@ -79,14 +80,15 @@ section#event {
 section#signup {
   background-color:#CCCCC9;
   grid-area: signup;
-  max-width: 450%;
-  margin: 10px;
+  max-width: 350%;
+  margin: 35px;
   font-family: 'Noto Sans', sans-serif;
 
 
 }
 
 h1{
+  text-color: #FF0000;
   text-align: Center
 }
 
@@ -94,7 +96,13 @@ h1{
 h2 {
   font-weight: 20px;
 }
-footer {
+
+h3{
+  font:#FF0000;
+}
+
+
+  footer {
   background-color: #BB131A;
   grid-area: footer;
   text-align: center;
